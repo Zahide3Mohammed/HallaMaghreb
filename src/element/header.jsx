@@ -12,7 +12,7 @@ export default function Header() {
       <div className="header__container">
         {/* Logo */}
           <span className="Logo">
-              <Link to="/"><img src="images/Logo.png" alt="" /> </Link></span>
+              <Link to="/"><img src="images/logo.png" alt="" /> </Link></span>
         {/* Actions */}
         <div className="header__actions">
           <LanguageSelect></LanguageSelect>

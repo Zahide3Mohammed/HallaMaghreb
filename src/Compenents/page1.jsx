@@ -14,34 +14,7 @@ export default function Lwla (){
     {/* header*/}
     <Header></Header>
     {/* section*/}
-    <div className="marquee">
-                <div className="marquee-track">
-                    <span>Hello</span>
-                    <span>Bonjour</span>
-                    <span>Hola</span>
-                    <span>مرحبا</span>
-                    <span>ⴰⵣⵓⵍ</span>
-                    <span>Olá</span>
-                    <span>नमस्ते</span>
-                    <span>你好</span>
-                    <span>Ciao</span>
-                    <span>Merhaba</span>
-                    <span>Hei</span>
-                    <span>Hej</span>
-                    <span>Hello</span>
-                    <span>Bonjour</span>
-                    <span>Hola</span>
-                    <span>مرحبا</span>
-                    <span>ⴰⵣⵓⵍ</span>
-                    <span>Olá</span>
-                    <span>नमस्ते</span>
-                    <span>你好</span>
-                    <span>Ciao</span>
-                    <span>Merhaba</span>
-                    <span>Hei</span>
-                    <span>Hej</span>
-                </div>
-            </div>
+    
     <section className="hero">
             <div className="bg-slider">
               <span style={{ backgroundImage: "url('./images/img1.png')" }}></span>
@@ -51,10 +24,7 @@ export default function Lwla (){
             </div>
             
   
-  <svg className="wave" viewBox="0 0 1440 120"  preserveAspectRatio="none">
-    <path d="M0,60 C120,100 240,20 360,40 C480,60 600,100 720,80 C840,60 960,20 1080,40 C1200,60 1320,100 1440,80 L1440,120 L0,120 Z"
-      fill="white"/>
-  </svg>
+  
   
     <div className="second">
         <h1>{t.tarhib}</h1><br />

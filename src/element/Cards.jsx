@@ -1,35 +1,35 @@
 import "./Cards.css";
+import { useLanguage } from "./LanguageContext";
+import { translations } from "./translations";
 
 function VisionMission() {
+  const { language } = useLanguage();
+  const t = translations[language];
   return (
     <>
     <section className="canva-section">
        <div className="canva-card gradient-purple">
-        <h2>Notre Vision</h2>
+        <h2>{t.card1t}</h2>
         <p>
-          Construire un avenir numérique innovant, basé sur la créativité,
-          la technologie moderne et des solutions durables qui apportent
-          une réelle valeur aux utilisateurs.
+          {t.card1}
         </p>
       </div>
       <div className="canva-card gradient-orange">
-        <h2>Notre Mission</h2>
+        <h2>{t.card2t}</h2>
         <p>
-          Offrir des solutions digitales performantes, accessibles et
-          orientées utilisateur, tout en accompagnant nos partenaires
-          vers une croissance continue et intelligente.
+          {t.card2}
         </p>
       </div>
       <div className="canva-card gradient-blue">
-        <h2>طموحنا</h2>
+        <h2>{t.card3t}</h2>
         <p>
-أن نصبح مرجعاً في المجال الرقمي من خلال تقديم منتجات مبتكرة وموثوقة وذات قيمة مضافة عالية لعملائنا وشركائنا.
+          {t.card3}
         </p>
       </div>
       <div className="canva-card gradient-teal">
-        <h2>مستقبلنا</h2>
+        <h2>{t.card4t}</h2>
         <p>
-مستقبل يركز على التطور المستمر، والتكيف مع التقنيات الجديدة، والتأثير الإيجابي على المجتمع الرقمي.
+          {t.card4}
         </p>
       </div>
 

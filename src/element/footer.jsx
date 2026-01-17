@@ -32,7 +32,7 @@ function Footer() {
       </div>
 
       <div className="footer__bottom">
-        © {new Date().getFullYear()} ProjetMeet. Tous droits réservés.
+        © {new Date().getFullYear()} HallaMaghreb. Tous droits réservés. <br />Réaliser par Mohammed Khilo et Mohammed Zahide
       </div>
     </footer>
   );

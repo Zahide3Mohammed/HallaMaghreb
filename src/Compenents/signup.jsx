@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import Footer from '../element/footer'
 import '../element/header'
 import Header from '../element/header'
@@ -62,7 +63,7 @@ export default function SignUp(){
   {/* Terms checkbox */}
   <label className="terms">
     <input type="checkbox" />
-    I agree to the Terms & Conditions
+    <Link to="/terms">I agree to the Terms & Conditions</Link> 
   </label>
 
             <button className="btn">Create account</button>

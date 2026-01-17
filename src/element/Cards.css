@@ -76,7 +76,7 @@
   .canva-section {
     grid-template-columns: 1fr; /* stacked cards */
     gap: 15px;
-    padding: 0 10px;
+    border: #0f766e 1px solid;
   }
 
   .canva-card {
